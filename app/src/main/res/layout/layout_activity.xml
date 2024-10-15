@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/implicit_intent"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/openGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GOOGLE"
+        android:background="@color/teal_200"/>
+
+    <Button
+        android:id="@+id/openWhatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WHATSAPP"
+        android:background="@color/teal_200"/>
+
+    <Button
+        android:id="@+id/openGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GALLERY"
+        android:background="@color/teal_200"/>
+
+    <Button
+        android:id="@+id/openDialer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIALER"
+        android:background="@color/teal_200"/>
+
+    <Button
+        android:id="@+id/openCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMERA"
+        android:background="@color/teal_200"/>
+
+    <Button
+        android:id="@+id/openText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See text"
+        android:background="@color/teal_200"/>
+
+    <Button
+        android:id="@+id/openCallLogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Logs"
+        android:background="@color/teal_200"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImplicitIntent</string>
+    <string name="implicit_intent">Implicit Intent</string>
+</resources>
